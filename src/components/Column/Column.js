@@ -21,18 +21,18 @@ class Column extends React.Component {
   }
 
   addCard(title) {
-     this.setState((state) => (
-       {
-       cards: [
-         ...state.cards,
-         {
-           key: state.cards.length ? state.cards[state.cards.length-1].key+1 : 0,
-           title,
-         }
-       ]
+    this.setState((state) => (
+      {
+        cards: [
+          ...state.cards,
+          {
+            key: state.cards.length ? state.cards[state.cards.length-1].key+1 : 0,
+            title,
+          },
+        ],
       }
     ));
-   }
+  }
 
   render() {
     return (
