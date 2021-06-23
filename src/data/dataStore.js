@@ -1,6 +1,7 @@
 export const settings = {
   columnCreatorText: 'Add new column',
   cardCreatorText: 'Add new card',
+  icon: 'cat',
   creator: {
     buttonOK: 'OK',
     buttonCancel: 'Cancel',
@@ -17,6 +18,18 @@ export const settings = {
 export const pageContents = {
   title: 'My first React app',
   subtitle: 'A simple to-do app, with lists, columns and cards',
+};
+
+export const infoContents = {
+  title: 'Info',
+  image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
+  text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+};
+
+export const faqContents = {
+  title: 'Faq',
+  image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
+  text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
 };
 
 export const listData = {
